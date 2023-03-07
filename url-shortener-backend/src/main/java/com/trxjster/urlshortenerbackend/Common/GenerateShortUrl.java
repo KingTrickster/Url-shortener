@@ -1,5 +1,4 @@
-package com.trxjster.urlshortener.common;
-
+package com.trxjster.urlshortenerbackend.Common;
 
 import com.google.common.hash.Hashing;
 import org.apache.commons.validator.routines.UrlValidator;
