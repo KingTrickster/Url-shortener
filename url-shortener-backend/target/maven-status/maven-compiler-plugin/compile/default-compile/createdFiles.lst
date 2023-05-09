@@ -1,0 +1,7 @@
+com\trxjster\urlshortenerbackend\Repository\UrlRepository.class
+com\trxjster\urlshortenerbackend\Controller\UrlController.class
+com\trxjster\urlshortenerbackend\Common\GenerateShortUrl.class
+com\trxjster\urlshortenerbackend\config\WebConfig.class
+com\trxjster\urlshortenerbackend\UrlShortenerBackendApplication.class
+com\trxjster\urlshortenerbackend\Service\UrlService.class
+com\trxjster\urlshortenerbackend\Model\Url.class
