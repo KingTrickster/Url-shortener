@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class UrlShortnerService {
   serviceUrl : string = '';
   constructor(private http : HttpClient) {
-    this.serviceUrl = "http://localhost:8080/api/v1/url-shortener";
+    this.serviceUrl = "http://localhost:8079/api/v1/url-shortener";
   }
 
   getShortUrl(url : string) {
