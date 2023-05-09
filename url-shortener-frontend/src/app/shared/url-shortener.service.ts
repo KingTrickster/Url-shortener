@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -8,7 +9,7 @@ import { Observable } from 'rxjs';
 export class UrlShortnerService {
   serviceUrl : string = '';
   constructor(private http : HttpClient) {
-    this.serviceUrl = "http://localhost:8079/api/v1/url-shortener";
+    this.serviceUrl = environment.apiURL;
   }
 
   getShortUrl(url : string) {
