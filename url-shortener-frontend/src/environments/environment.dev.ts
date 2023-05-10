@@ -1,5 +1,5 @@
 export const environment = {
   production: false,
   title: 'Dev Environment Heading',
-  apiURL: 'http://localhost:8079/api/v1/url-shortener'
+  apiURL: 'https://url-shortener-server-o86f.onrender.com/api/v1/url-shortener'
 };
