@@ -4,6 +4,6 @@ export const environment = {
 
   title: 'Production Environment Heading',
 
-  apiURL: 'https://url-shortener-server-o86f.onrender.com/api/v1/url-shortener'
+  apiURL: 'http://18.188.94.75:8079/'
 
 };
