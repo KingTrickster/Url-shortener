@@ -4,6 +4,6 @@ export const environment = {
 
   title: 'Production Environment Heading',
 
-  apiURL: 'https://18.188.94.75:8079/'
+  apiURL: 'http://localhost:8079/api/v1/url-shortener'
 
 };
